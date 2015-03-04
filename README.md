@@ -5,11 +5,11 @@ This Technology Add-on (TA) is for people who have an account with Evident.io (h
 
 Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_evidentio folder:
 
-bin/aws_evidentio.py
-default/data/ui/manager/data_inputs_aws-evidentio.xml
-default/props.conf
-default/inputs.conf
-README/inputs.conf.spec
+    bin/aws_evidentio.py
+    default/data/ui/manager/data_inputs_aws-evidentio.xml
+    default/props.conf
+    default/inputs.conf
+    README/inputs.conf.spec
 
 ##You'll need to manually create the aws-evidentio index
 
