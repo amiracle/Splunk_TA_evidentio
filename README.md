@@ -3,7 +3,8 @@ Splunk Technology Add-on for Evident.io
 
 This Technology Add-on (TA) is for people who have an account with Evident.io (http://www.evident.io) and want to gather their alerts into their Splunk instance.  This TA requires both the Splunk App for AWS (https://apps.splunk.com/app/1274/) AND the Splunk Add-on for Amazon Web Services (https://apps.splunk.com/app/1876/). 
 
-Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_aws folder:
+Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_evidentio folder:
+
 bin/aws_evidentio.py
 default/data/ui/manager/data_inputs_aws-evidentio.xml
 default/props.conf
@@ -12,10 +13,7 @@ README/inputs.conf.spec
 
 ##You'll need to manually create the aws-evidentio index
 
-##Caution, this will overwrite the configuration files in your default directory
-Any subsequent upgrades to future versions of the Splunk TA for Amazon Web Services will remove the changes made. 
-
-If you need to make any changes to the TA, make sure to just copy the aws_evidentio.py and data_inputs_aws-evidentio.xml files and make the following config file entry changes:
+Here's a list of the configuration files:
 
 props.conf
 -------------
