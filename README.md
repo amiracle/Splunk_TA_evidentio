@@ -11,7 +11,6 @@ Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_ev
     default/inputs.conf
     README/inputs.conf.spec
 
-##You'll need to manually create the aws-evidentio index
 
 Here's a list of the configuration files:
 
@@ -57,6 +56,8 @@ indexes.conf
     coldPath = $SPLUNK_DB/aws-evidentio/colddb
     homePath = $SPLUNK_DB/aws-evidentio/db
     thawedPath = $SPLUNK_DB/aws-evidentio/thaweddb
+
+##If you have a clustered environment, make sure you distribute this configuration file to the clustered indexes
 
 README\inputs.conf.spec
 -------------------------
