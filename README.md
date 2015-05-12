@@ -21,12 +21,12 @@ props.conf
     ##################################
     [aws:evidentio]
     INDEXED_EXTRACTIONS = JSON
-    SHOULD_LINEMERGE = false
-    TRUNCATE = 8388608
-    TIME_PREFIX = \"eventTime\"\s*\:\s*\"
+    #SHOULD_LINEMERGE = false
+    #TRUNCATE = 8388608
+    TIME_PREFIX = \"TimeStamp\"\s*\:\s*\"
     TIME_FORMAT = %Y-%m-%dT%H:%M:%S%Z
     MAX_TIMESTAMP_LOOKAHEAD = 28
-    # KV_MODE = json
+    #KV_MODE = json
     
     # Notifications/Diff Payloads
     [source::aws:evidentio:notification]
