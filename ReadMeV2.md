@@ -6,10 +6,16 @@ This Technology Add-on (TA) is for people who have an account with Evident.io (h
 Here is what you will need in order to get this solution up and running in your AWS environment:
     
     AWS CLI tools (http://docs.aws.amazon.com/cli/latest/userguide/installing.html) 
+    KMS Key (https://aws.amazon.com/blogs/aws/new-key-management-service/) 
     Access to creating a Lambda function in your AWS account
+    Splunk Token from the HTTP Event Collector (See below for links to documentation on HTTP Event Collector)
+
     
 Reference Material :
+
     http://dev.splunk.com/view/event-collector/SP-CAAAE7T - Video on setting up a Lambda function with Splunk.
+    https://aws.amazon.com/blogs/aws/new-key-management-service/ - Setup Splunk HTTP Event Collector 
+    https://aws.amazon.com/blogs/aws/new-key-management-service/ - Walk through for HTTP Event Collector (Splunk Cloud)
 
 
 Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_evidentio folder:
@@ -44,5 +50,4 @@ props.conf
     #MAX_TIMESTAMP_LOOKAHEAD = 28
     #KV_MODE = json
     #ANNOTATE_PUNCT = false
-
 
