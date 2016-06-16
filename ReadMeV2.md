@@ -16,7 +16,7 @@ Reference Material :
     http://dev.splunk.com/view/event-collector/SP-CAAAE7T - Video on setting up a Lambda function with Splunk.
     https://aws.amazon.com/blogs/aws/new-key-management-service/ - Setup Splunk HTTP Event Collector 
     https://aws.amazon.com/blogs/aws/new-key-management-service/ - Walk through for HTTP Event Collector (Splunk Cloud)
-
+    https://gist.github.com/glennblock/0d5e6384d93449d3e7c6
 
 Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_evidentio folder:
 
