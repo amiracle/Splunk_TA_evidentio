@@ -1,6 +1,8 @@
 # Splunk_TA_evidentio
 Splunk Technology Add-on for Evident.io
 
+## App has been replaced by https://splunkbase.splunk.com/app/3204/ 
+
 This Technology Add-on (TA) is for people who have an account with Evident.io (http://www.evident.io) and want to gather their alerts into their Splunk instance.  This TA requires both the Splunk App for AWS (https://apps.splunk.com/app/1274/) AND the Splunk Add-on for Amazon Web Services (https://apps.splunk.com/app/1876/). 
 
 Here's a list of files that are added to your $SPLUNK_HOME/etc/apps/Splunk_TA_evidentio folder:
