@@ -1,0 +1,10 @@
+<nav search_view="search" color="#0b9ddb">
+  <collection label="Setup">
+  <a href="/manager/Splunk_TA_evidentio/apps/local/Splunk_TA_evidentio/setup?action=edit">Step 1 - Setup AWS Details</a>
+  <a href="/manager/search/data/inputs/aws_evidentio">Step 2 - Setup Evident.io Splunk Input</a>
+  </collection>
+  <view name="search" />
+  <a href="/app/splunk_app_evidentio">Evident.io App for Splunk</a>
+  <a href="https://github.com/amiracle/Splunk_TA_evidentio">Help</a>
+  <a href="https://esp.evident.io/users/sign_in">Evident.io Login</a>
+</nav>
